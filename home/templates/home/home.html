@@ -1,0 +1,27 @@
+
+  {% extends 'base.html' %}
+  {% block content %}
+    <main>
+        <!-- Добавить код для секции hero, отображать ее только после авторизации-->
+
+         <section class="hero">
+            <div class="wrapper hero-wrapper">
+              <img src="" alt="" class="my_image hero__my_image">
+              <span class="first_name">Имя:</span>
+              <span class="last_name">Фамилия:Текст Рыба</span>
+              <span class="my_age">Дата рождения: 01.06.2001 (22)</span>
+              <p class="my_desc">О себе :</p>
+                <p class="my_desc">О себе : </p>
+            </div>
+        </section>
+        <!-- Добавить код для отображения регистрации только для не авторизованных пользователей-->
+        <section class="hero">
+            <div class="wrapper hero-wrapper">
+            <h2>Регистрация нового пользователя</h2>
+            <a href="#" class="sign_link">Регистрация</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+  {% endblock %}
